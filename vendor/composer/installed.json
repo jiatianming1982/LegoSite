@@ -1,0 +1,45 @@
+[
+    {
+        "name": "leancloud/leancloud-sdk",
+        "version": "v0.2.6",
+        "version_normalized": "0.2.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leancloud/php-sdk.git",
+            "reference": "b3c23a79a8825735929f3a2056eb936bfe4cd46c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leancloud/php-sdk/zipball/b3c23a79a8825735929f3a2056eb936bfe4cd46c",
+            "reference": "b3c23a79a8825735929f3a2056eb936bfe4cd46c",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*"
+        },
+        "require-dev": {
+            "apigen/apigen": "^4.1",
+            "phpunit/phpunit": "^4.8"
+        },
+        "time": "2016-05-13 05:48:57",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "LeanCloud\\": "src/LeanCloud"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Juvenn Woo",
+                "email": "yun.wu@leancloud.rocks"
+            }
+        ],
+        "description": "LeanCloud PHP SDK",
+        "homepage": "https://github.com/leancloud/php-sdk",
+        "keywords": [
+            "leancloud"
+        ]
+    }
+]
